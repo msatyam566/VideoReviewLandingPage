@@ -1,0 +1,10 @@
+.app {
+  background-color: #050716;
+  color: var(--content-secondary, rgba(255, 255, 255, 0.6)); /* Consistent text color */
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  padding: 16px; /* Add padding for spacing */
+  box-sizing: border-box; /* Include padding in width/height calculations */
+}
+

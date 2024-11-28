@@ -1,0 +1,86 @@
+.header {
+    background-color: #050716; /* Match the app background */
+
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-logo {
+    flex: 1;
+    padding-left: 10%;
+  }
+  
+  .header-nav ul {
+    list-style: none;
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+  }
+  
+  .header-nav li {
+    margin-right: 20px;
+  }
+  
+  .header-nav a {
+    color: #FFFFFF99;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header-title {
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: "SF Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 274;
+    line-height: normal;
+  }
+  
+  .btn {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    background: var(--Primary, #439EF4);
+    border-radius: 8px;
+
+  }
+
+
+  .reel {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .left-reel {
+    left: 91px; /* Distance from the right edge */
+    top: 150px; /* Distance from the top */
+    position: absolute;
+    transform: translateY(-50%); /* Center vertically */
+  }
+  
+  .right-reel {
+    right: 120px; /* Distance from the right edge */
+    top: 296px; /* Distance from the top */
+    position: absolute;
+    transform: translateY(-50%); /* Center vertically */
+  }
+
+  .right-video-reel {
+    left: 133px; /* Distance from the right edge */
+    top: 450px; /* Distance from the top */
+    position: absolute;
+    transform: translateY(-50%); /* Center vertically */
+  }
+
+ 
+ 
+ 

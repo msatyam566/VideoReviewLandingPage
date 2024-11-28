@@ -1,0 +1,188 @@
+.image-main {
+  padding-top: 0%;
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center horizontally */
+  background-color: #050716;
+}
+
+.layout-image {
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  width: 388px;
+  height: 388px; /* Circle container dimensions */
+  border-radius: 50%; /* Make it circular */
+  position: relative; /* Create a local stacking context */
+}
+
+.blur-bg {
+  width: 388px;
+  height: 388px;
+  border-radius: 50%;
+  background: rgba(0, 122, 255, 0.97); /* Same as layout image background */
+  filter: blur(135px); /* Add blur */
+  position: absolute; /* Absolute position within layout-image */
+  z-index: 0; /* Behind the image */
+  
+}
+
+.image {
+  width: 233px;
+  height: 251px;
+  position: relative; /* Ensure image is on top of the background */
+}
+
+
+
+
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 192px 168px 168px;
+}
+
+
+.main-left {
+  width: 352px;
+  height: 449px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.main-left h1 {
+  color: var(--Primary, #439ef4);
+  font-family: "SF Pro";
+  font-size: 47px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 32px;
+}
+
+.main-left p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "SF Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 274;
+  line-height: normal;
+  color: #ffffffcc;
+  padding-left: 32px;
+}
+
+.main-left h2 {
+  color: var(--content-secondary, rgba(255, 255, 255, 0.6));
+  font-family: "SF Pro";
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 274;
+  line-height: normal;
+  padding-left: 32px;
+}
+
+.main-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  padding-left: 114px;
+}
+
+.main-right h1 {
+  color: var(--content-primary, rgba(255, 255, 255, 0.87));
+  font-family: "SF Pro";
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.main-right p {
+  color: var(--content-secondary, rgba(255, 255, 255, 0.6));
+  font-family: "SF Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 274;
+  line-height: 24px; /* 150% */
+}
+
+.btn {
+  background-color: #007aff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.film-reel {
+  width: 50px; /* Adjust the width as needed */
+  height: auto;
+  margin-left: 300px; /* Adjust the margin as needed */
+  vertical-align: middle;
+}
+.judging-criteria {
+  margin-top: 50px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 274;
+  line-height: normal;
+}
+
+.criteria-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.criterion {
+  padding: 20px;
+  border-radius: 10px;
+  border-radius: 8px;
+  background: var(--background-section, rgba(255, 255, 255, 0.05));
+}
+
+.criterion h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.criterion p {
+  font-size: 16px;
+}
+
+.video-main {
+  display: flex;
+  padding-top: 192px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.promo-video {
+  margin-top: 1%;
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  width: 726px;
+  height: 384px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.promo-video h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
